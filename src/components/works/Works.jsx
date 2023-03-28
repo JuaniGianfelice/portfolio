@@ -1,7 +1,7 @@
 import "./works.scss";
 import { useTranslation} from "react-i18next";
 
-
+//Armar en un futuro esta seccion como si fuese un carrusel
 
 export default function Works() {
   const [t, i18n] = useTranslation("global");
