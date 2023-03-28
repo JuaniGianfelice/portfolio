@@ -1,0 +1,132 @@
+@import "../../global.scss";
+
+.works .title {
+  text-align: center;
+  font-size: 50px;
+  color: #f7f7f7;
+  margin-top: 80px;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.cards {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+
+  .card {
+    position: relative;
+    width: 950px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgba($color: #6d9886, $alpha: 0.5);
+    filter: border-shadow(2px 2px 2px black);
+
+    @include mobile {
+      height: 65%;
+      width: 90%; 
+      font-size: 10px;
+      margin-bottom: 0px;
+    }
+  }
+
+
+  .card img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 360px;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(1px 1px 1px black);
+    pointer-events: none;
+    transition: 0.5s;
+  }
+
+  .card:hover img {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  .card h1 {
+    position: absolute;
+    margin-top: 70%;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 20%;
+    color: #fff;
+    filter: drop-shadow(1px 1px 1px black);
+  }
+
+  .card .special {
+    margin-left: 38%;
+  }
+
+  .card:hover h1 {
+    visibility: hidden;
+  }
+
+  .card .content {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: 20%;
+    color: #f7f7f7;
+    filter: drop-shadow(3px 3px 3px black);
+  }
+
+  .card:hover .content {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+  }
+
+  .card .content h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 5px;
+    font-size: 29px;
+  }
+
+  .card .content h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .card .content a {
+    position: relative;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #393e46;
+    color: #f7f7f7;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .card .content {
+    @include mobile {
+      display: none;
+    }
+  }
+
+}

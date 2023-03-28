@@ -1,0 +1,53 @@
+{
+    "menu":{
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "works": "Trabajos",
+        "contact": "Contactame"
+    },
+    
+    "intro":{
+        "h2": "Hola, mi nombre es"
+    },
+
+    "aboutme":{
+        "h1": "Sobre mi",
+        "p": "Apacionado por la tecnologia y por aprender nuevas cosas desde joven. En los ultimos años, me he dedicado a la programacion construyendo proyectos y encontrando nuevas formas de aumentar mis conocimientos para crear soluciones",
+        "a": "Descargar Curriculum"
+    },
+
+    "skills":{
+        "h1": "Habilidades"
+    },
+
+    "works":{
+        "tittle": "Trabajos",
+        "loretta":{
+            "h3": "Sitio Web",
+            "p": "Pagina web creada con HTML, CSS y Js",
+            "a": "Visitar Aca"
+        },
+        "ecommerce":{
+            "h3": "Aplicacion Web",
+            "p": "Aplicacion web creada con React",
+            "a": "Visitar Aca"
+        },
+
+        "comingsoon":{
+            "h3": "Sitio Web",
+            "p": "Pagina en proceso, esperar detalles",
+            "a": "Proximamente"
+
+        }
+    },
+
+    "contact":{
+        "h2": "Contactame",
+        "button": "Enviar",
+        "name": "Nombre",
+        "message": "Mensaje"
+    }
+
+    
+}

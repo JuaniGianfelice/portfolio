@@ -1,0 +1,50 @@
+{
+    "menu":{
+        "home": "Home",
+        "about": "About Me",
+        "skills": "Skills",
+        "works": "Works",
+        "contact": "Contact"
+    },
+    
+    "intro":{
+        "h2": "Hi There, I'm"
+    },
+
+    "aboutme":{
+        "h1": "About me",
+        "p": "Passionate about technology and learning new things since I was young. During las years, I have been into programming by building projects and finding new ways to oncrease my knowledge so as to create solutions",
+        "a": "Download Resume"
+    },
+
+    "skills":{
+        "h1": "Skills"
+    },
+
+    "works":{
+        "tittle": "Works",
+        "loretta":{
+            "h3": "Web Side",
+            "p": "Web page created with HTML, CSS and Js",
+            "a": "Visit Here"
+        },
+        "ecommerce":{
+            "h3": "App Web",
+            "p": "App web created with React",
+            "a": "Visit Here"
+        },
+
+        "comingsoon":{
+            "h3": "coming Soon",
+            "p": "Wait for details, page in process",
+            "a": "Coming Soon"
+        }
+    },
+
+    "contact":{
+        "h2": "Contact me",
+        "button": "Send",
+        "name": "Name",
+        "message": "Message"
+    }
+}
