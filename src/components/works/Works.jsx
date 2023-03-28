@@ -14,7 +14,7 @@ export default function Works() {
             <h2>Loretta</h2>
             <h3>{t("works.loretta.h3")}</h3>
             <p>{t("works.loretta.p")}</p>
-            <a href="">{t("works.loretta.a")}</a>
+            <a href="https://github.com/JuaniGianfelice/loretta-web">{t("works.loretta.a")}</a>
           </div>
           <img src="/assets/works1.png" alt="" />
           <h1 className="special">Loretta</h1>
@@ -25,7 +25,7 @@ export default function Works() {
             <h2>Ecommerce</h2>
             <h3>{t("works.ecommerce.h3")}</h3>
             <p>{t("works.ecommerce.p")}</p>
-            <a href="">{t("works.ecommerce.a")}</a>
+            <a href="https://github.com/JuaniGianfelice/ecommerce-react">{t("works.ecommerce.a")}</a>
           </div>
           <img src="/assets/works2.png" alt="" />
           <h1>Ecommerce</h1>
