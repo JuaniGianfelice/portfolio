@@ -17,29 +17,29 @@ export default function Works() {
             <a href="https://github.com/JuaniGianfelice/loretta-web">{t("works.loretta.a")}</a>
           </div>
           <img src="/assets/works1.png" alt="" />
-          <h1 className="special">Loretta</h1>
+          <h1>Loretta</h1>
         </div>
 
         <div className="card">
           <div className="content">
-            <h2>Ecommerce</h2>
+            <h2>{t("works.ecommerce.h1")}</h2>
             <h3>{t("works.ecommerce.h3")}</h3>
             <p>{t("works.ecommerce.p")}</p>
             <a href="https://github.com/JuaniGianfelice/ecommerce-react">{t("works.ecommerce.a")}</a>
           </div>
           <img src="/assets/works2.png" alt="" />
-          <h1>Ecommerce</h1>
+          <h1>{t("works.ecommerce.h1")}</h1>
         </div>
 
         <div className="card">
           <div className="content">
-            <h2>{t("works.comingsoon.a")}</h2>
-            <h3>{t("works.comingsoon.h3")}</h3>
-            <p>{t("works.comingsoon.p")}</p>
-            <a href="#">{t("works.comingsoon.a")}</a>
+            <h2>{t("works.usergenerator.h1")}</h2>
+            <h3>{t("works.usergenerator.h3")}</h3>
+            <p>{t("works.usergenerator.p")}</p>
+            <a href="https://usergenerator.vercel.app">{t("works.usergenerator.a")}</a>
           </div>
           <img src="/assets/works3.png" alt="" />
-          <h1>{t("works.comingsoon.a")}</h1>
+          <h1>{t("works.usergenerator.h1")}</h1>
         </div>
       </div>
     </div>

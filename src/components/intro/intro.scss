@@ -1,49 +1,19 @@
 @import '../../global.scss';
 
 .intro{
-
     display: flex;
+    width: 100%;
+    
 
     @include mobile{
-        flex-direction: column;
+        display: block;
         align-items: center;
     }
 
-    .right{
-        flex: 0.5;
-        overflow: hidden;
-
-        .imgContainer{
-            width: 700px;
-            height: 700px;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: left;
-
-
-            @include mobile{
-                align-items: flex-start;
-                
-                
-            }
-
-            img{
-                height: 100%;
-
-                @include mobile{
-                    height: 50%;
-                    padding-right: 50%;
-                    padding-top: 5%;
-
-                }
-
-            }
-        }
-    }
+    
     .left{
         flex: 0.5;
-        position: relative;
+        width: 100%;
 
         .wrapper{
             width: 100%;
@@ -53,6 +23,7 @@
             flex-direction: column;
             justify-content: center;
             color: #393E46;   
+            
             
 
             @include mobile{
@@ -100,5 +71,37 @@
             }
         }
         
+    }
+
+    .right{
+        flex: 0.5;        
+
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            float: left;
+
+
+            @include mobile{
+                align-items: flex-start;
+                
+                
+            }
+
+            img{
+                height: 100%;
+
+                @include mobile{
+                    height: 50%;
+                    padding-right: 50%;
+                    padding-top: 5%;
+
+                }
+
+            }
+        }
     }
 }

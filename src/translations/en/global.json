@@ -29,15 +29,17 @@
             "a": "Visit Here"
         },
         "ecommerce":{
+            "h1": "Ecommerce",
             "h3": "App Web",
             "p": "App web created with React",
             "a": "Visit Here"
         },
 
-        "comingsoon":{
-            "h3": "coming Soon",
-            "p": "Wait for details, page in process",
-            "a": "Coming Soon"
+        "usergenerator":{
+            "h1": "User Generator",
+            "h3": "App Web",
+            "p": "App web created whit HTML, CSS and Js",
+            "a": "Visit Here"
         }
     },
 

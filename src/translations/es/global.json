@@ -29,15 +29,17 @@
             "a": "Visitar Aca"
         },
         "ecommerce":{
+            "h1": "Carrito de Compras",
             "h3": "Aplicacion Web",
             "p": "Aplicacion web creada con React",
             "a": "Visitar Aca"
         },
 
-        "comingsoon":{
-            "h3": "Sitio Web",
-            "p": "Pagina en proceso, esperar detalles",
-            "a": "Proximamente"
+        "usergenerator":{
+            "h1": "Generador de Usuario",
+            "h3": "Aplicacion Web",
+            "p": "Aplicacion web creada con HTML, CSS y Js",
+            "a": "Visitar Aca"
 
         }
     },
