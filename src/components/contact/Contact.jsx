@@ -1,10 +1,7 @@
 import React, { useRef } from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import emailjs from "@emailjs/browser";
 import "./contact.scss";
-import { useTranslation } from "react-i18next";
+import { useTranslation} from "react-i18next";
 
 export default function Contact() {
   const [t, i18n] = useTranslation("global");
@@ -53,32 +50,6 @@ export default function Contact() {
               value={t("contact.button")}
             />
           </form>
-        </div>
-
-        <div className="socials">
-          <div className="logos">
-            <a
-              href="https://github.com/JuaniGianfelice"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <GitHubIcon className="github" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gianfelicejuanignacio1998/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <LinkedInIcon className="linkedin" />
-            </a>
-            <a
-              href="https://www.instagram.com/juanigianfelice/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <InstagramIcon className="instagram" />
-            </a>
-          </div>
         </div>
       </div>
     </div>

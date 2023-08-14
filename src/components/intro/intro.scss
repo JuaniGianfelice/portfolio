@@ -1,30 +1,35 @@
 @import '../../global.scss';
 
+
 .intro{
     display: flex;
-    width: 100%;
+    height: calc(100vh - 70px);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
     
 
     @include mobile{
         display: block;
         align-items: center;
+        width: 100vh;
     }
 
     
     .left{
-        flex: 0.5;
-        width: 100%;
-
+        flex: 1;
+        
         .wrapper{
-            width: 100%;
-            height: 100%;
-            padding-left: 50px;
+          
             display: flex;
+            align-items: center ;
+            padding: 100px;
             flex-direction: column;
             justify-content: center;
             color: #393E46;   
-            
-            
+                  
 
             @include mobile{
                 padding-left: 20px;
@@ -33,7 +38,7 @@
             }
 
             h1{
-                font-size: 60px;
+              font-size: 50px;
                 margin: 10px 0;
 
                 @include mobile{
@@ -41,7 +46,7 @@
                 }
             }
             h2{
-                font-size: 25px;
+                font-size: 30px;
             }
             h3{
                 font-size: 30px;
@@ -69,39 +74,92 @@
                     }
                 }
             }
-        }
-        
-    }
 
-    .right{
-        flex: 0.5;        
-
-        .imgContainer{
-            width: 700px;
-            height: 700px;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: left;
-
-
-            @include mobile{
-                align-items: flex-start;
+            .socials {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 15px;
+          
                 
-                
-            }
-
-            img{
-                height: 100%;
-
-                @include mobile{
-                    height: 50%;
-                    padding-right: 50%;
-                    padding-top: 5%;
-
+          
+                .logos {
+                  width: 200px;
+                  display: flex;
+                  justify-content: space-between;
+          
+                  @include mobile {
+                    width: 180px;
+                    margin-top: 5px;
+                  }
+          
+                  .linkedin {
+                    height: 60px;
+                    width: 60px;
+                    color: #393E46;
+                    filter: drop-shadow(1px 1px 1px black);
+                    
+          
+                    @include mobile {
+                      width: 50px;
+                      height: 50px;
+                    }
+          
+                    &:hover {
+                      color: #0e76a8;
+                      transition: all 0.5s ease;
+                      transform: scale(0.9);
+                    }
+                  }
+          
+                  .github {
+                    height: 55px;
+                    width: 55px;
+                    color: #393E46;
+                    filter: drop-shadow(1px 1px 1px black);
+          
+                    @include mobile {
+                      width: 45px;
+                      height: 45px;
+                    }
+          
+                    &:hover {
+                      color: rgb(90, 90, 90);
+                      transition: all 0.5s ease;
+                      transform: scale(0.9);
+                    }
+                  }
+          
+                  .instagram {
+                    height: 60px;
+                    width: 60px;
+                    color: #393E46;
+                    filter: drop-shadow(1px 1px 1px black);
+          
+                    @include mobile {
+                      width: 50px;
+                      height: 50px;
+                    }
+          
+                    &:hover {
+                      color: #c13584;
+                      transition: all 0.5s ease;
+                      transform: scale(0.9);
+                    }
+                  }
                 }
-
-            }
+              }
         }
     }
+
+    
+    .right{  
+        flex: 1;
+        display: flex;  
+        
+        img{
+            width: 70%;
+            margin: auto;
+        }
+    }       
 }

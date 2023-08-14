@@ -1,12 +1,12 @@
 import './app.scss'
 import {
-  Intro,
   Topbar,
-  Skills,
   Menu,
-  Contact,
+  Intro,
+  About,
+  Skills,
   Works,
-  About
+  Contact
 } from './components';
 import { useState } from 'react';
 

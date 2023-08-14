@@ -1,3 +1,12 @@
+Package to install:
+    - npm install sass
+    - npm install react-i18next
+    - npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    - npm install @emailjs/browser --save
+    - npm install ityped
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
