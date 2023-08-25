@@ -10,8 +10,7 @@ export default function Skills() {
         <h1>{t("skills.h1")}</h1>
         <img src="assets/skills.png" alt="skill" />
 
-        {/*Ajustar Scroll*/}
-        {/*Crear una imagen para mobile y agregarla como img2, luego hacer invisible y que solo aparezca en mobile*/}
+       
         
       </div>
     </div>

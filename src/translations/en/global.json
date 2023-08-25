@@ -28,10 +28,10 @@
             "p": "Web page created with HTML, CSS and Js",
             "a": "Visit Here"
         },
-        "ecommerce":{
-            "h1": "Ecommerce",
+        "weatherapp":{
+            "h1": "Weather App",
             "h3": "App Web",
-            "p": "App web created with React",
+            "p": "App web created with HTML, CSS and Js",
             "a": "Visit Here"
         },
 

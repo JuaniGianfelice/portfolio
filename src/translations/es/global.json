@@ -26,20 +26,20 @@
         "loretta":{
             "h3": "Sitio Web",
             "p": "Pagina web creada con HTML, CSS y Js",
-            "a": "Visitar Aca"
+            "a": "Visitar Acá"
         },
-        "ecommerce":{
-            "h1": "Carrito de Compras",
+        "weatherapp":{
+            "h1": "Aplicacion del Clima",
             "h3": "Aplicacion Web",
-            "p": "Aplicacion web creada con React",
-            "a": "Visitar Aca"
+            "p": "Aplicacion web creada con HTML, CSS y Js",
+            "a": "Visitar Acá"
         },
 
         "usergenerator":{
             "h1": "Generador de Usuario",
             "h3": "Aplicacion Web",
             "p": "Aplicacion web creada con HTML, CSS y Js",
-            "a": "Visitar Aca"
+            "a": "Visitar Acá"
 
         }
     },
