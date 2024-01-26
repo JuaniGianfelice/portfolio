@@ -1,9 +1,13 @@
-$mainColor: #393E46;
+$textColor: #EBEBEB;
+$mainColor: #7BE4B2;
+$secColor: #55a78d;
+$otherColor: #357D68;
+$bgColor: #100C1A;
 
-$width: 768px;
+$txtShadow: 2px 2px 2px black;
 
 @mixin mobile {
-    @media (max-width: #{$width}){
+    @media (max-width: #{768px}){
         @content
     }
 }

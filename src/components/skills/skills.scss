@@ -1,66 +1,47 @@
 @import "../../global.scss";
 
+
 .skills {
-  
-  width: 700px;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 100px;
 
-    @include mobile {
-      flex-direction: column;
-      align-items: center;
-    }
-
-  .back {
-    height: 80%;
-    width: 65%;
-    position: relative;
-    background-color:  #6D9886;
-    opacity: 0.5;
-    border-radius: 100px;
-    
-
-    @include mobile {
-       height: 65%;
-       width: 90%;       
-      }
-
+  h1 {
+    margin: 40px;
+    text-align: center;
+    color: $textColor;
+    text-shadow: $txtShadow;
   }
 
-  .container {
-    position: absolute;
-    text-align: center;
+  .col {
+    padding: 0 40px;
 
-    @include mobile {
-      padding-left: 0px;
+    .card {
       align-items: center;
-    }
+      background-color: transparent;
+      color: $secColor;
+      text-shadow: $txtShadow;
+      border: 2px solid $otherColor;
+      box-shadow: 0 0 15px $otherColor;
+      transition: 0.5s;
 
-    h1 {
-      font-size: 50px;
-      color: #F7F7F7;
-      padding-bottom: 25px;
-      filter: drop-shadow(3px 3px 3px black);
+      &:hover {
+        transition: 0.5s;
+        color: $mainColor;
+        border: 2px solid $secColor;
+        box-shadow: 0 0 25px $secColor;
 
-      @include mobile {
-        font-size: 40px;
+        img {
+          padding: 25px;
+        }
+      }
+
+      img {
+        padding: 30px;
+        transition: 0.5s;
+      }
+
+      .card-body {
+        padding: none;
       }
     }
-
-    img {
-      width: 650px;
-      height: 350px;
-      filter: drop-shadow(1px 1px 1px black);
-
-      @include mobile {
-        width: 325px;
-        height: 200px;
-      }
-    }
-
-    //agregar opciones para mobile en img2
   }
 }

@@ -1,115 +1,36 @@
 @import "../../global.scss";
 
 .contact {
-  height: 100%;
-  display: flex;
+  margin: 100px;
+  color: $textColor;
+  text-shadow: $txtShadow;
 
-  .left {
-    flex: 1;
-    display: flex;
-    
-    @include mobile{
-      display: none;
-    }
+  h1 {
+    margin: 40px;
+    text-align: center;
 
-    img {
-      width: 70%;
-      margin: auto;
-      
-      filter: drop-shadow(1px 1px 1px);
-    }
   }
 
-  .right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+  form {
+    margin-top: 30px;
+    font-size: larger;
 
-    @include mobile{
-      flex: 1;
-    }
-    
-
-    .contactForm {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      text-align: center;
-
-      h2 {
-        font-size: 40px;
-        color: #393E46;       
-         
-      }
-
-      form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;  
-        align-items: center;
-        
-
-        label {      
-        font-size: 20px;
-        color: #393e46;
-        font-weight: bold;
-        
-        }
-        
-
-        input {
-          height: 20px;
-          width: 70%;
-          font-size: 15px;
-          margin: 10px;
-
-          @include mobile {
-            height: 25px;
-            margin-bottom: 5px;
-          }
-        }
-
-        textarea {
-          height: 200px;
-          width: 70%;
-          font-size: 15px;
-          margin: 10px;
-
-          @include mobile {
-            height: 100px;
-            margin-bottom: 5px;
-          }
-        }
-
-        .button {
-          width: 40%;
-          height: 10%;
-          color: #f7f7f7;
-          background-color: #393E46;
-          border: none;
-          border-radius: 10px;
-          font-weight: 700;
-          filter: drop-shadow(2px 2px 2px black);
-
-          &:hover {
-            background-color: #6d9886;
-            transition: all 0.5s ease;
-            transform: scale(0.9);
-            cursor: pointer;
-          }
-        }
-
-        span {
-          color: black;
-        }
-      }
+    .msg {
+      margin-top: 30px;
     }
 
-    
+    .btn {
+      color: $textColor;
+      text-shadow: 1px 1px 5px black;
+      background-color: $otherColor;
+      transition: 0.5s;
+      border: none;
+
+      &:hover {
+        background-color: $secColor;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+    }
   }
 }

@@ -1,5 +1,8 @@
 import './topbar.scss';
-import EmailIcon from '@mui/icons-material/Email';
+import HomeIcon from '@mui/icons-material/Home';
+import CodeIcon from '@mui/icons-material/Code';
+import WorkIcon from '@mui/icons-material/Work';
+import MailIcon from '@mui/icons-material/Email';
 import { useTranslation } from 'react-i18next';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -8,13 +11,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className={'topbar ' + (menuOpen && 'active') }>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className='logo'>J|G</a>
-                    <div className="itemContainer">
-                        <EmailIcon className='icon' />
-                        <span>juani.gianfelice@gmail.com</span>
-                    </div>
+                    <a href="/" className='logo'>J|G</a>
                 </div>
                 <div className="right">
+                    <div className="itemContainer">
+                        <a href="/"><HomeIcon className='icon'/> {t("menu.home")}</a>
+                        <a href="/skills"><CodeIcon className='icon'/> {t("menu.skills")}</a>
+                        <a href="/works"><WorkIcon className='icon'/> {t("menu.works")}</a>
+                        <a href="/contact"><MailIcon className='icon'/> {t("menu.contact")}</a>
+                    </div>
                     <div className='language'>
                         <button onClick={() => i18n.changeLanguage("es")}>ES</button>
                         <button onClick={() => i18n.changeLanguage("en")}>EN</button>

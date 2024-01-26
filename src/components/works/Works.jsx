@@ -1,47 +1,119 @@
 import "./works.scss";
-import { useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-//Armar en un futuro esta seccion como si fuese un carrusel
 
 export default function Works() {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="works" id="works">
+      
       <h1 className="title">{t("works.tittle")}</h1>
-      <div className="cards">
-        <div className="card">
-          <div className="content">
-            <h2>Loretta</h2>
-            <h3>{t("works.loretta.h3")}</h3>
-            <p>{t("works.loretta.p")}</p>
-            <a href="https://lorettaband.vercel.app/">{t("works.loretta.a")}</a>
-          </div>
-          <img src="/assets/works1.png" alt="" />
-          <h1>Loretta</h1>
-        </div>
 
-        <div className="card">
-          <div className="content">
-            <h2>{t("works.weatherapp.h1")}</h2>
-            <h3>{t("works.weatherapp.h3")}</h3>
-            <p>{t("works.weatherapp.p")}</p>
-            <a href="https://gianfelice-weatherapp.vercel.app/">{t("works.weatherapp.a")}</a>
-          </div>
-          <img src="/assets/works2.png" alt="" />
-          <h1>{t("works.weatherapp.h1")}</h1>
-        </div>
+      <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center">
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works1.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.schedule.h5")}</h5>
+            <p class="card-text">{t("works.schedule.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/guard-schedule" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="/not" role="button">Demo</a>
+            </div>
 
-        <div className="card">
-          <div className="content">
-            <h2>{t("works.usergenerator.h1")}</h2>
-            <h3>{t("works.usergenerator.h3")}</h3>
-            <p>{t("works.usergenerator.p")}</p>
-            <a href="https://usergenerator.vercel.app">{t("works.usergenerator.a")}</a>
           </div>
-          <img src="/assets/works3.png" alt="" />
-          <h1>{t("works.usergenerator.h1")}</h1>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works2.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">Loretta Web</h5>
+            <p class="card-text">{t("works.loretta.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/loretta-webside" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://lorettaband.vercel.app/" role="button">Demo</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works3.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.ecommerce.h5")}</h5>
+            <p class="card-text">{t("works.ecommerce.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/ecommerce-react" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="/not" role="button">Demo</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works4.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.todo.h5")}</h5>
+            <p class="card-text">{t("works.todo.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/todo-list" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://todo-list-gianfelice.vercel.app/" role="button">Demo</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works5.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.weatherapp.h5")}</h5>
+            <p class="card-text">{t("works.weatherapp.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/weather-app" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://gianfelice-weatherapp.vercel.app/" role="button">Demo</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works6.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.usergenerator.h5")}</h5>
+            <p class="card-text">{t("works.usergenerator.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/user-generator" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://usergenerator.vercel.app/" role="button">Demo</a>
+            </div>
+
+
+          </div>
         </div>
       </div>
+
     </div>
   );
 }

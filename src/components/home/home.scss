@@ -1,0 +1,225 @@
+@import '../../global.scss';
+
+
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+
+  @include mobile {
+    display: block;
+    align-items: center;
+    width: 100vh;
+  }
+
+
+  .left {
+    flex: 1;
+
+    .wrapper {
+      display: flex;
+      padding: 100px;
+      flex-direction: column;
+      color: $textColor;
+      text-shadow: $txtShadow;
+
+
+      @include mobile {
+        padding-left: 20px;
+        padding-top: 70px;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 50px;
+        margin: 10px 0;
+
+        @include mobile {
+          font-size: 30px;
+        }
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      h3 {
+        font-size: 30px;
+
+        @include mobile {
+          font-size: 20px;
+        }
+
+        span {
+          font-size: inherit;
+          color: $mainColor;
+          filter: drop-shadow(0.1px 0.1px 0.1px black);
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+
+      .socials {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+
+
+
+        .logos {
+          width: 200px;
+          display: flex;
+          justify-content: space-between;
+
+          @include mobile {
+            width: 180px;
+            margin-top: 5px;
+          }
+
+          .linkedin {
+            height: 60px;
+            width: 60px;
+            color: $textColor;
+            filter: drop-shadow(1px 1px 1px black);
+
+
+            @include mobile {
+              width: 50px;
+              height: 50px;
+            }
+
+            &:hover {
+              color: #0e76a8;
+              transition: all 0.5s ease;
+              transform: scale(0.9);
+            }
+          }
+
+          .github {
+            height: 55px;
+            width: 55px;
+            color: $textColor;
+            filter: drop-shadow(1px 1px 1px black);
+
+            @include mobile {
+              width: 45px;
+              height: 45px;
+            }
+
+            &:hover {
+              color: rgb(245, 164, 66);
+              transition: all 0.5s ease;
+              transform: scale(0.9);
+            }
+          }
+
+          .instagram {
+            height: 60px;
+            width: 60px;
+            color: $textColor;
+            filter: drop-shadow(1px 1px 1px black);
+
+            @include mobile {
+              width: 50px;
+              height: 50px;
+            }
+
+            &:hover {
+              color: #c13584;
+              transition: all 0.5s ease;
+              transform: scale(0.9);
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .right {
+    flex: 1;
+    display: flex;
+
+    img {
+      width: 70%;
+      margin: auto;
+    }
+  }
+}
+
+.about {
+  width: 100vw;
+  margin: 100px;
+    
+  
+  @include mobile {
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 20px 0;
+    color: $textColor;
+    text-shadow: $txtShadow;
+  }
+
+  p {
+    padding-right: 10%;
+    font-size: 25px;
+    color: $textColor;
+    text-shadow: $txtShadow;
+
+    @include mobile {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+  button {
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $textColor;
+    text-shadow: 1px 1px 5px black;
+    background-color: $otherColor;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 2px 2px black);
+
+    @include mobile {
+      width: 70%;
+      height: 30px;
+    }
+
+
+    &:hover {
+      background-color: $secColor;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+  }
+
+}

@@ -7,39 +7,46 @@
         "contact": "Contact"
     },
     
-    "intro":{
+    "home":{
         "h2": "Hi There, I'm"
     },
 
     "aboutme":{
         "h1": "About me",
-        "p": "Passionate about technology and learning new things since was young. During last years, I have been into programming by building projects and finding new ways to increase my knowledge so as to create solutions",
+        "p": "In 2021 I began my self-taught training as a programmer, taking advantage of free courses, video tutorials and the constant practice in personal and professional projects. I highlight my progress through the latter which were designed to be applied in my work environment.",
         "a": "Download Resume"
     },
 
     "skills":{
-        "h1": "Skills"
+        "h1": "Skills",
+        "h1a":"Professional Skills",
+        "h1b":"Tools I Use"
     },
 
     "works":{
         "tittle": "Works",
+        "schedule":{
+            "h5":"Guard Schedule",
+            "p": "I designed a system for tracking medical work hours where the department head inputs the worked hours on the calendar, and the responsible person can finalize the billing at the end of the month. The web application utilizes the \"FullCalendar\" API. Technologies used: MERN Stack (MongoDB, Express.js, React, Node.js)"
+        },
         "loretta":{
-            "h3": "Web Side",
-            "p": "Web page created with HTML, CSS and Js",
-            "a": "Visit Here"
+            "p": "Website created for the band Loretta. This web page enables the band to share its music, provide information about upcoming events, and connect with its fans. Technologies used: JavaScript (React), Sass."
+        },
+        "ecommerce":{
+            "h5":"Ecommerce",
+            "p": "I developed a shopping cart that consumes the \"Mercado Libre\" API to fetch products entered into the search box. The application allows users to search for products, view details, and add items to their cart for a seamless shopping experience. Technologies used: JavaScript (React), Sass."
+        },
+        "todo":{
+            "h5":"To-do List",
+            "p": "I created a To-do List application using React. The app allows users to add, edit, and delete tasks, providing a clean and intuitive user interface for task management.Technologies used: JavaScript (React), Sass."
         },
         "weatherapp":{
-            "h1": "Weather App",
-            "h3": "App Web",
-            "p": "App web created with HTML, CSS and Js",
-            "a": "Visit Here"
+            "h5":"Weather App",
+            "p": "I developed a weather application that retrieves specific data from the \"OpenWeatherMap\" API. The app features a search box where users input a location, and it retrieves data from the API. Technologies used: HTML, CSS, and JavaScript."
         },
-
         "usergenerator":{
-            "h1": "User Generator",
-            "h3": "App Web",
-            "p": "App web created whit HTML, CSS and Js",
-            "a": "Visit Here"
+            "h5":"User Generator",
+            "p": "I developed an app that generates random user data fetched from the \"RandomUser.me\" API, like a profile picture, name, gender, email, phone, and location. Technologies used: HTML, CSS, and JavaScript."
         }
     },
 
@@ -48,5 +55,10 @@
         "button": "Send",
         "name": "Name",
         "message": "Message"
+    },
+
+    "not":{
+        "h1": "It seems that this page is under development",
+        "p": "You can go back using the top navigation bar"
     }
 }

@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.scss";
-import { useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   const [t, i18n] = useTranslation("global");
@@ -30,28 +31,36 @@ export default function Contact() {
 
   return (
     <div className="contact" id="contact">
-      <div className="left">
-        <img src="/assets/profile2.png" alt="" />
+
+
+      <div className="contactForm">
+
+        <h1>{t("contact.h2")}</h1>
+
+        <form ref={form} onSubmit={sendEmail}>
+
+          <div class="row">
+            <div class="col">
+              <label>{t("contact.name")}</label>
+              <input type="text" class="form-control" placeholder={t("contact.name")} aria-label="Name" name="user_name" />
+            </div>
+
+            <div class="col">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="Email" aria-label="Email" name="user_email" />
+            </div>
+          </div>
+
+          <div class="msg mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">{t("contact.message")}</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder={t("contact.message")}/>
+          </div>
+
+          <input className="btn btn-primary btn-lg" type="submit" value={t("contact.button")} />
+        </form>
+
       </div>
 
-      <div className="right">
-        <div className="contactForm">
-          <h2>{t("contact.h2")}</h2>
-          <form ref={form} onSubmit={sendEmail}>
-            <label>{t("contact.name")}</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>{t("contact.message")}</label>
-            <textarea name="message" />
-            <input
-              className="button"
-              type="submit"
-              value={t("contact.button")}
-            />
-          </form>
-        </div>
-      </div>
     </div>
   );
 }

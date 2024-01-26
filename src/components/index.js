@@ -1,19 +1,19 @@
-import Intro from './intro/Intro';
+import Home from './home/Home';
 import Topbar from './topbar/Topbar';
 import Skills from './skills/Skills';
 import Contact from './contact/Contact';
 import Works from './works/Works';
 import Menu from './menu/Menu';
-import About from './about/About';
+import Not from './not/Not'
 
 
 export {
-    About,
     Menu,
-    Intro,
+    Home,
     Topbar,
     Skills,
     Contact,
-    Works
+    Works,
+    Not
 };
 

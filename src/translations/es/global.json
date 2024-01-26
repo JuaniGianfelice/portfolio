@@ -4,43 +4,49 @@
         "about": "Sobre mi",
         "skills": "Habilidades",
         "works": "Trabajos",
-        "contact": "Contactame"
+        "contact": "Contacto"
     },
     
-    "intro":{
+    "home":{
         "h2": "Hola, mi nombre es"
     },
 
     "aboutme":{
         "h1": "Sobre mi",
-        "p": "Apasionado por la tecnologia y aprender nuevas cosas desde joven. En los ultimos años, me he dedicado a la programacion construyendo proyectos y encontrando nuevas formas de aumentar mis conocimientos para crear soluciones.",
+        "p": "En 2021 inicié mi formación autodidacta como programador, aprovechando cursos gratuitos, tutoriales en video y la práctica constante en proyectos personales y profesionales. Destaco mi progreso a través de estos últimos los cuales fueron diseñados para aplicarse en mi entorno laboral.",
         "a": "Descargar Curriculum"
     },
 
     "skills":{
-        "h1": "Habilidades"
+        "h1": "Habilidades",
+        "h1a":"Skills Profesionales",
+        "h1b":"Herramientas que uso"
     },
 
     "works":{
         "tittle": "Trabajos",
+        "schedule":{
+            "h5":"Calendario de Guardias",
+            "p": "Desarrollé un sistema para el control de las horas médicas trabajadas, donde el jefe del sector registra las horas trabajadas en el calendario y el responsable de honorarios puede liquidarlas al final del mes. Esta aplicación web utiliza la API \"FullCalendar\". Tecnologias usadas: Stack MERN (MongoDB, Express.js, React, Node.js)"
+        },
         "loretta":{
-            "h3": "Sitio Web",
-            "p": "Pagina web creada con HTML, CSS y Js",
-            "a": "Visitar Acá"
+           "p": "Pagina web creada para la banda Loretta. Esta web permite a la banda compartir su música, informar sobre próximos eventos y conectar con sus fanáticos. Tecnologías Utilizadas: JavaScript (React), Sass."
+        },
+        "ecommerce":{
+            "h5":"Carrito de Compras",
+            "p": "Desarrollé un carrito de compras que consume la API de \"Mercado Libre\" para traer los productos introducidos en el cuadro de búsqueda. La aplicación permite a los usuarios buscar productos, ver detalles y agregar artículos al carrito para una experiencia de compra fluida. Tecnologías Utilizadas: JavaScript (React), Sass."
+        },
+        "todo":{
+            "h5":"Lista de Tareas",
+            "p": "Desarrollé una aplicación de lista de tareas (To-do list) utilizando React. La aplicación permite a los usuarios agregar, editar y eliminar tareas, proporcionando una interfaz de usuario limpia e intuitiva para la gestión de tareas. Tecnologías Utilizadas: JavaScript (React), Sass."
         },
         "weatherapp":{
-            "h1": "Aplicacion del Clima",
-            "h3": "Aplicacion Web",
-            "p": "Aplicacion web creada con HTML, CSS y Js",
-            "a": "Visitar Acá"
+            "h5":"Aplicacion del Clima",
+            "p": "Desarrollé una aplicación del clima que obtiene datos específicos de la API \"OpenWeatherMap\". La aplicación cuenta con un cuadro de búsqueda donde los usuarios ingresan una ubicación, y la misma recupera datos de la API. Tecnologías utilizadas: HTML, CSS y JavaScript."
         },
-
         "usergenerator":{
-            "h1": "Generador de Usuario",
-            "h3": "Aplicacion Web",
-            "p": "Aplicacion web creada con HTML, CSS y Js",
-            "a": "Visitar Acá"
-
+            "h5":"Generador de Usuario",
+            "p": "Desarrollé una aplicación que genera datos de usuarios aleatorios obtenidos de la API \"RandomUser.me\", tales como foto de perfil, nombre, género, correo electrónico, teléfono y ubicación. Tecnologías utilizadas: HTML, CSS y JavaScript."
         }
     },
 
@@ -49,6 +55,11 @@
         "button": "Enviar",
         "name": "Nombre",
         "message": "Mensaje"
+    },
+
+    "not":{
+        "h1": "Parece que esta pagina esta en desarrollo",
+        "p": "Puedes volver con la barra de navegacion superior"
     }
 
     

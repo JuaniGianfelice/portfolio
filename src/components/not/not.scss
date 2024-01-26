@@ -1,0 +1,15 @@
+@import '../../global.scss';
+
+.not {
+    display: flex;
+    color: $textColor;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+
+    p {
+      font-size: larger;
+    }
+  }
+  
