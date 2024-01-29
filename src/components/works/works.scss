@@ -3,6 +3,10 @@
 .works {
   margin: 100px;
 
+  @include mobile {
+    margin: 100px 10px;
+  }
+
   h1 {
     margin: 40px;
     text-align: center;

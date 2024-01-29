@@ -6,20 +6,21 @@ export default function Menu({ menuOpen, setMenuOpen }) {
     return (
         <div className={'menu ' + (menuOpen && 'active')}>
             <ul>
-                <li onClick={() => setMenuOpen(false)}>
-                    <a href="#home">{t("menu.home")}</a>
+                <li className='buttons'>
+                    <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+                    <button onClick={() => i18n.changeLanguage("en")}>EN</button>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#about">{t("menu.about")}</a>
+                    <a href="/home">{t("menu.home")}</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#skills">{t("menu.skills")}</a>
+                    <a href="/skills">{t("menu.skills")}</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#works">{t("menu.works")}</a>
+                    <a href="/works">{t("menu.works")}</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#contact">{t("menu.contact")}</a>
+                    <a href="/contact">{t("menu.contact")}</a>
                 </li>
             </ul>
         </div>

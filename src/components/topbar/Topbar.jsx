@@ -13,13 +13,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="/" className='logo'>J|G</a>
                 </div>
-                <div className="right">
+                <div className='center'>
                     <div className="itemContainer">
                         <a href="/"><HomeIcon className='icon'/> {t("menu.home")}</a>
                         <a href="/skills"><CodeIcon className='icon'/> {t("menu.skills")}</a>
                         <a href="/works"><WorkIcon className='icon'/> {t("menu.works")}</a>
                         <a href="/contact"><MailIcon className='icon'/> {t("menu.contact")}</a>
                     </div>
+                </div>
+                <div className="right">
                     <div className='language'>
                         <button onClick={() => i18n.changeLanguage("es")}>ES</button>
                         <button onClick={() => i18n.changeLanguage("en")}>EN</button>

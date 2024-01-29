@@ -11,9 +11,7 @@
 
 
   @include mobile {
-    display: block;
-    align-items: center;
-    width: 100vh;
+    display: block;  
   }
 
 
@@ -29,9 +27,8 @@
 
 
       @include mobile {
-        padding-left: 20px;
-        padding-top: 70px;
         align-items: center;
+        padding: 150px 50px;
       }
 
       h1 {
@@ -80,6 +77,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 15px;
+
+        @include mobile {
+          align-items: center;
+          padding: 0 50px;
+        }
 
 
 
@@ -157,6 +159,10 @@
     flex: 1;
     display: flex;
 
+    @include mobile {
+      display: none;
+    }
+
     img {
       width: 70%;
       margin: auto;
@@ -167,11 +173,13 @@
 .about {
   width: 100vw;
   margin: 100px;
-    
-  
+
+
   @include mobile {
     align-items: center;
-    padding-left: 20px;
+    text-align: center;
+    margin: 50px 0px;
+    
   }
 
   h1 {
@@ -189,6 +197,7 @@
 
     @include mobile {
       font-size: 20px;
+      padding-right: 0;
       margin-bottom: 15px;
     }
   }
@@ -211,7 +220,7 @@
 
     @include mobile {
       width: 70%;
-      height: 30px;
+
     }
 
 
