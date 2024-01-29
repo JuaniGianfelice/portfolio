@@ -1,13 +1,11 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://gianfelice-portfolio.vercel.app/" target="_blank">gianfelice-portfolio</a>
+  Portfolio Website<br/>
 </h2>
 <div align="center">
   <img alt="Demo" src="/public/assets/desktop.png" />
 </div>
 
 <br/>
-
 
 ## Built With
 
@@ -16,7 +14,7 @@ My personal portfolio <a href="https://gianfelice-portfolio.vercel.app/" target=
 This project was built using these technologies.
 
 - React.js
-- SCSS
+- SASS
 - VsCode
 - Vercel
 
@@ -24,7 +22,7 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with React-Bootstrap and SASS with easy to customize colors**
 
 **📱 Fully Responsive**
 
