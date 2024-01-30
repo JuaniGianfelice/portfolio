@@ -42,18 +42,18 @@ export default function Contact() {
           <div class="row">
             <div class="col">
               <label>{t("contact.name")}</label>
-              <input type="text" class="form-control" placeholder={t("contact.name")} aria-label="Name" name="user_name" />
+              <input type="text" class="form-control" placeholder={t("contact.name")} aria-label="Name" name="user_name" required/>
             </div>
 
             <div class="col">
               <label>Email</label>
-              <input type="email" class="form-control" placeholder="Email" aria-label="Email" name="user_email" />
+              <input type="email" class="form-control" placeholder="Email" aria-label="Email" name="user_email" required/>
             </div>
           </div>
 
           <div class="msg mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">{t("contact.message")}</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder={t("contact.message")}/>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder={t("contact.message")} required/>
           </div>
 
           <input className="btn btn-primary btn-lg" type="submit" value={t("contact.button")} />
