@@ -22,7 +22,7 @@ export default function Works() {
             <p class="card-text">{t("works.schedule.p")}</p>
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/guard-schedule" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="/not" role="button">Demo</a>
+              <a class="btn btn-primary mx-2" href="https://calendarguard.vercel.app/" role="button">Demo</a>
             </div>
 
           </div>
@@ -38,7 +38,7 @@ export default function Works() {
             <p class="card-text">{t("works.loretta.p")}</p>
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/loretta-webside" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="https://lorettaband.vercel.app/" role="button">Demo</a>
+              <a class="btn btn-primary mx-2" href="https://lorettaband.vercel.app/" role="button">Web</a>
             </div>
 
 
@@ -72,7 +72,7 @@ export default function Works() {
             <p class="card-text">{t("works.todo.p")}</p>
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/todo-list" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="https://todo-list-gianfelice.vercel.app/" role="button">Demo</a>
+              <a class="btn btn-primary mx-2" href="https://todo-list-gianfelice.vercel.app/" role="button">Web</a>
             </div>
 
 
@@ -89,7 +89,7 @@ export default function Works() {
             <p class="card-text">{t("works.weatherapp.p")}</p>
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/weather-app" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="https://gianfelice-weatherapp.vercel.app/" role="button">Demo</a>
+              <a class="btn btn-primary mx-2" href="https://gianfelice-weatherapp.vercel.app/" role="button">Web</a>
             </div>
 
 
@@ -106,7 +106,7 @@ export default function Works() {
             <p class="card-text">{t("works.usergenerator.p")}</p>
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/user-generator" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="https://usergenerator.vercel.app/" role="button">Demo</a>
+              <a class="btn btn-primary mx-2" href="https://usergenerator.vercel.app/" role="button">Web</a>
             </div>
 
 
