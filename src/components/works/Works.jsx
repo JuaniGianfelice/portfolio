@@ -46,7 +46,7 @@ export default function Works() {
         </div>
         <div class="col">
           <div className="card">
-            <img
+          <img
               src="/assets/works/works3.png"
               className="bd-placeholder-img card-img-top"
               alt="git Logo"
