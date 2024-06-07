@@ -115,7 +115,7 @@ export default function Works() {
         <div class="col">
           <div className="card">
             <img
-              src="/assets/works/works3.png"
+              src="/assets/works/works7.png"
               className="bd-placeholder-img card-img-top"
               alt="img"
             />
