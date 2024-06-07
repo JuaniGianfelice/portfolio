@@ -30,7 +30,8 @@
             "p": "Desarrollé un sistema para el control de las horas médicas trabajadas, donde el jefe del sector registra las horas trabajadas en el calendario y el responsable de honorarios puede liquidarlas al final del mes. Esta aplicación web utiliza la API \"FullCalendar\". Tecnologias usadas: Stack MERN (MongoDB, Express.js, React, Node.js)"
         },
         "verdefresco":{
-            "p": "Desarrollé en equipo una aplicación web de e-commerce ficticia como parte del programa FullStack de Argentina Programa 4.0, etapa Frontend. Esta aplicación permite a los usuarios explorar productos, agregar artículos al carrito y simular el proceso de compra. Tecnologías utilizadas: HTML, CSS, JavaScript."
+            "h5":"Verde Fresco",
+            "p": "Desarrollé en equipo una aplicación web de e-commerce ficticia como parte del programa FullStack de 'Argentina Programa 4.0', etapa Frontend. Esta aplicación permite a los usuarios explorar productos, agregar artículos al carrito y simular el proceso de compra. Tecnologías utilizadas: HTML, CSS, JavaScript."
         },
         "loretta":{
            "p": "Pagina web creada para la banda Loretta. Esta web permite a la banda compartir su música, informar sobre próximos eventos y conectar con sus fanáticos. Tecnologías Utilizadas: JavaScript (React), Sass."

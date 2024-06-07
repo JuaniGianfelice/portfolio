@@ -61,7 +61,7 @@ export default function Works() {
 
           </div>
         </div>
-        <div class="col">
+        {/*<div class="col">
           <div className="card">
           <img
               src="/assets/works/works3.png"
@@ -77,7 +77,7 @@ export default function Works() {
 
 
           </div>
-        </div>
+        </div>*/}
         <div class="col">
           <div className="card">
             <img
@@ -107,6 +107,23 @@ export default function Works() {
             <div class="button d-flex justify-content-center">
               <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/weather-app" role="button">Github</a>
               <a class="btn btn-primary mx-2" href="https://gianfelice-weatherapp.vercel.app/" role="button">Web</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works3.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.usergenerator.h5")}</h5>
+            <p class="card-text">{t("works.usergenerator.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/user-generator" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://usergenerator.vercel.app/" role="button">Web</a>
             </div>
 
 
