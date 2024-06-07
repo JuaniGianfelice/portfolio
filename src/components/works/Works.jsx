@@ -117,7 +117,7 @@ export default function Works() {
             <img
               src="/assets/works/works3.png"
               className="bd-placeholder-img card-img-top"
-              alt="git Logo"
+              alt="img"
             />
             <h5 class="card-title">{t("works.usergenerator.h5")}</h5>
             <p class="card-text">{t("works.usergenerator.p")}</p>
