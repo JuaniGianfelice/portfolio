@@ -30,6 +30,23 @@ export default function Works() {
         <div class="col">
           <div className="card">
             <img
+              src="/assets/works/works6.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">{t("works.verdefresco.h5")}</h5>
+            <p class="card-text">{t("works.verdefresco.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/verde-fresco" role="button">Github</a>
+              <a class="btn btn-primary mx-2" href="https://verde-fresco.vercel.app/" role="button">Web</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div className="card">
+            <img
               src="/assets/works/works2.png"
               className="bd-placeholder-img card-img-top"
               alt="git Logo"
@@ -95,23 +112,7 @@ export default function Works() {
 
           </div>
         </div>
-        <div class="col">
-          <div className="card">
-            <img
-              src="/assets/works/works6.png"
-              className="bd-placeholder-img card-img-top"
-              alt="git Logo"
-            />
-            <h5 class="card-title">{t("works.usergenerator.h5")}</h5>
-            <p class="card-text">{t("works.usergenerator.p")}</p>
-            <div class="button d-flex justify-content-center">
-              <a class="btn btn-primary mx-2" href="https://github.com/JuaniGianfelice/user-generator" role="button">Github</a>
-              <a class="btn btn-primary mx-2" href="https://usergenerator.vercel.app/" role="button">Web</a>
-            </div>
 
-
-          </div>
-        </div>
       </div>
 
     </div>

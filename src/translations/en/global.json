@@ -29,6 +29,9 @@
             "h5":"Guard Schedule",
             "p": "I designed a system for tracking medical work hours where the department head inputs the worked hours on the calendar, and the responsible person can finalize the billing at the end of the month. The web application utilizes the \"FullCalendar\" API. Technologies used: MERN Stack (MongoDB, Express.js, React, Node.js)"
         },
+        "verdefresco":{
+            "p": "Developed a fictional e-commerce web application as part of the FullStack program of Argentina Programa 4.0, Frontend stage. This application allows users to browse products, add items to the cart, and simulate the purchase process. Technologies used: HTML, CSS, JavaScript."
+        },
         "loretta":{
             "p": "Website created for the band Loretta. This web page enables the band to share its music, provide information about upcoming events, and connect with its fans. Technologies used: JavaScript (React), Sass."
         },
