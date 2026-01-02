@@ -7,10 +7,28 @@ export default function Works() {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="works" id="works">
-      
+
       <h1 className="title">{t("works.tittle")}</h1>
 
       <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center">
+
+        <div class="col">
+          <div className="card">
+            <img
+              src="/assets/works/works8.png"
+              className="bd-placeholder-img card-img-top"
+              alt="git Logo"
+            />
+            <h5 class="card-title">J&G Agrimensura</h5>
+            <p class="card-text">{t("works.jyg.p")}</p>
+            <div class="button d-flex justify-content-center">
+              <a class="btn btn-primary mx-2" href="https://jygagrimensura.com/" role="button">Web</a>
+            </div>
+
+
+          </div>
+        </div>
+
         <div class="col">
           <div className="card">
             <img
@@ -44,7 +62,10 @@ export default function Works() {
 
           </div>
         </div>
-        <div class="col">
+
+
+
+        {/*<div class="col">
           <div className="card">
             <img
               src="/assets/works/works2.png"
@@ -60,7 +81,8 @@ export default function Works() {
 
 
           </div>
-        </div>
+        </div>*/}
+
         {/*<div class="col">
           <div className="card">
           <img
@@ -78,6 +100,7 @@ export default function Works() {
 
           </div>
         </div>*/}
+
         <div class="col">
           <div className="card">
             <img
