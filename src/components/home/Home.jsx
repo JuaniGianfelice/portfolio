@@ -8,12 +8,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Home() {
   const textRef = useRef();
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   const PDF = () => {
     const routePDF = "/assets/Resume.pdf";
     window.open(routePDF, "_blank");
   }
-  console.log(i18n.language);
 
   useEffect(() => {
     init(textRef.current, {

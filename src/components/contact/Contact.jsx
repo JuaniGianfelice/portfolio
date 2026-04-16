@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const form = useRef();
 
@@ -22,7 +22,6 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log(i18n.language);
         },
         (error) => {
           console.log(error.text);

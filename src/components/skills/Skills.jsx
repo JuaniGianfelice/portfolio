@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Skills() {
-  const [t, i18n] = useTranslation("global");
-  console.log(i18n.language);
+  const [t] = useTranslation("global");
+
   return (
     <div className="skills" id="skills">
       
