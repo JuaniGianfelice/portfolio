@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Works() {
   const [t, i18n] = useTranslation("global");
+  console.log(i18n.language);
   return (
     <div className="works" id="works">
 

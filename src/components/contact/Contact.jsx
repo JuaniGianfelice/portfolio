@@ -22,6 +22,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(i18n.language);
         },
         (error) => {
           console.log(error.text);

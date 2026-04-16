@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Skills() {
   const [t, i18n] = useTranslation("global");
+  console.log(i18n.language);
   return (
     <div className="skills" id="skills">
       

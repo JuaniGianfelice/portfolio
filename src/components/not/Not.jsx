@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Not() {
     const [t, i18n] = useTranslation("global");
+    console.log(i18n.language);
     return (
         <div className="not" id="not">
             <div className="wrapped">

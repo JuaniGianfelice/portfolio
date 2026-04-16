@@ -13,6 +13,7 @@ export default function Home() {
     const routePDF = "/assets/Resume.pdf";
     window.open(routePDF, "_blank");
   }
+  console.log(i18n.language);
 
   useEffect(() => {
     init(textRef.current, {
